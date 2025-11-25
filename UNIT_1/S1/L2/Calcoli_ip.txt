@@ -1,4 +1,5 @@
 128.1.6.5/12 
+Subnet mask: 255.240.0.0
 IP Network: 128.0.0.0
 IP Gateway: 128.0.0.1
 IP Broadcast: 128.15.255.255
@@ -6,6 +7,7 @@ Ottetti per gli host: 2.5
 Ottetti per la network: 1.5
 
 192.192.1.1/22
+Subnet mask: 255.255.252.0
 IP Network: 192.192.0.0
 IP Gateway: 192.192.0.1
 IP Broadcast: 192.192.3.255
@@ -13,6 +15,7 @@ Ottetti per gli host: 2.5
 Ottetti per la network: 2.5
 
 200.1.2.3/24
+Subnet mask: 255.255.255.0
 IP Network: 200.1.2.0
 IP Gateway: 200.1.2.1
 IP Broadcast: 200.1.2.255
@@ -20,6 +23,7 @@ Ottetti per gli host: 1
 Ottetti per la network: 3
 
 172.16.0.4/16
+Subnet mask: 255.255.0.0
 IP Network: 172.16.0.0
 IP Gateway: 172.16.0.1
 IP Broadcast: 172.16.255.255
@@ -27,6 +31,7 @@ Ottetti per gli host: 2
 Ottetti per la network: 2
 
 126.5.4.3/9
+Subnet mask: 255.128.0.0
 IP Network: 126.0.0.0
 IP Gateway: 126.0.0.1
 IP Broadcast: 126.127.255.255
@@ -34,10 +39,12 @@ Ottetti per gli host: 2.875
 Ottetti per la network: 1.125
 
 200.1.9.8/24
+Subnet mask: 255.255.255.0
 IP Network: 200.1.9.0
 IP Gateway: 200.1.9.1
 IP Broadcast: 200.1.9.255
 Ottetti per gli host: 1 
 ● Ottetti per la network: 3
+
 
 
