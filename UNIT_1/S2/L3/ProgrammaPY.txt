@@ -1,0 +1,8 @@
+
+citta_di_origine = input("Qual è il nome della tua città di origine? ")
+nome_animale = input("Qual è il nome del tuo animale domestico? ")
+
+nome_band = citta_di_origine + " " + nome_animale
+
+print("\n--- Risultato ---")
+print("Il nome della tua band potrebbe essere:", nome_band)
