@@ -1,0 +1,27 @@
+import math
+
+print("CALCOLO PERIMETRO DELLE FIGURE")
+print("1 - Quadrato")
+print("2 - Cerchio")
+print("3 - Rettangolo")
+
+scelta = input("Scegli la figura (1/2/3): ")
+
+if scelta == "1":
+    lato = float(input("Inserisci la lunghezza del lato: "))
+    perimetro = lato * 4
+    print("Il perimetro del quadrato è:", perimetro)
+
+elif scelta == "2":
+    raggio = float(input("Inserisci il raggio del cerchio: "))
+    perimetro = 2 * math.pi * raggio
+    print("La circonferenza del cerchio è:", perimetro)
+
+elif scelta == "3":
+    base = float(input("Inserisci la base: "))
+    altezza = float(input("Inserisci l'altezza: "))
+    perimetro = (base * 2) + (altezza * 2)
+    print("Il perimetro del rettangolo è:", perimetro)
+
+else:
+    print("Scelta non valida!")
